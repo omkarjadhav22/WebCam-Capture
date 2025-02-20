@@ -1,0 +1,24 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build Webcam Capture",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "C:/Users/omkar/OneDrive/Documents/WebCam Capture/main.cpp",
+                "-o",
+                "C:/Users/omkar/OneDrive/Documents/WebCam Capture/webcam.exe",
+                "-I",
+                "C:/Users/omkar/Downloads/opencv/build/include",
+                "-L",
+                "C:/Users/omkar/Downloads/opencv/build/x64/vc16/lib",
+                "-lopencv_world4110"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}

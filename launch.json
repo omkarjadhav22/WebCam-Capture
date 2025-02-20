@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        
+        {
+            "name": "Run Webcam App",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/webcam",
+            "args": [],
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal",
+            "MIMode": "gdb"
+        }
+    ]
+}
